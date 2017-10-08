@@ -7,8 +7,9 @@
  */
 public class CalculationsV2
 {
+   public static void main(String[ ] args)
     {
-// Addition
+        // Addition
         System.out.println("Addition");
         System.out.println( 25 + 9 );
         System.out.println( 43.21 + 3.14 + 5.0 );
@@ -54,5 +55,6 @@ public class CalculationsV2
         
         //2.04 Additional double Equations
         
+              
     }
 }
