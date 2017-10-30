@@ -36,14 +36,14 @@ public class CalcualtionsV4
         // Division
         System.out.println("Division");
         System.out.print(iNum2+ "divide"+ iNum1+ "=" );
-        System.out.println(9 / 25);
+        System.out.println(iNum2/ iNum1);
         System.out.println("43.21 divide 5.0 equals" + (43.21 / 5.0) );
         //System.out.println();
          
         // Modulus operator
         System.out.println("Modulus");
         System.out.print(iNum3 +"modulus"+ iNum2 +"=");
-        System.out.println(16 % 9 );
+        System.out.println(iNum3 % iNum3 );
         System.out.println("5.0 modulus 3.14 equals"+ (5.0 % 3.14));
         //System.out.println();
         
@@ -63,9 +63,9 @@ public class CalcualtionsV4
         
         //2.04 Additional double Equations
         System.out.println(iNum1 + "plus" + iNum2 + "modulus" + iNum3 + "=");
-        System.out.print( 25 + 9 % 16);
+        System.out.print( iNum1 + iNum2 % iNum3);
         System.out.println(iNum3 + "minus" + iNum1 + "divide" + iNum2 + "times" + iNum3);
-        System.out.print(16 - 25 / 9 * 16);
+        System.out.print(iNum3 - iNum1 / iNum2 * iNum3);
                
     } // end of main methodmethod
 }
